@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace CustomService\Service;
+namespace Swag\CustomService\Service;
 
 class MyService
 {

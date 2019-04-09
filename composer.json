@@ -2,7 +2,7 @@
     "name": "swag/custom-service",
     "description": "Plugin with an example service",
     "version": "v1.0.0",
-    "type": "shopware-plugin",
+    "type": "shopware-platform-plugin",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
         "shopware/platform": "dev-master"
     },
     "extra": {
-        "installer-name": "CustomService",
+        "shopware-plugin-class": "Swag\\CustomService\\CustomService",
         "label": {
             "de_DE": "Plugin mit einem Beispiel Service",
             "en_GB": "Plugin with an example service"
@@ -21,6 +21,11 @@
         "description": {
             "de_DE": "Plugin mit einem Beispiel Service",
             "en_GB": "Plugin with an example service"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\CustomService\\": "src/"
         }
     }
 }
