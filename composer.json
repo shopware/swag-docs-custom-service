@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\CustomService\\CustomService",
         "label": {
-            "de-DE": "Plugin mit einem Beispiel Service",
-            "en-GB": "Plugin with an example service"
+            "de-DE": "Label für das Plugin CustomService",
+            "en-GB": "Label for the plugin CustomService"
         },
         "description": {
-            "de-DE": "Plugin mit einem Beispiel Service",
-            "en-GB": "Plugin with an example service"
+            "de-DE": "Beschreibung für das Plugin CustomService",
+            "en-GB": "Description for the plugin CustomService"
         }
     },
     "autoload": {
